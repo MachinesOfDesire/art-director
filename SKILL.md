@@ -1,7 +1,7 @@
 ---
 name: art-director
 description: Generate on-aesthetic images for any brand telling stories with images. Combines a persistent brand aesthetic with per-image editorial thinking to produce visuals that do work — parallel arguments, not decoration. Wraps nano-banana-pro (Gemini) for the underlying image generation.
-version: 1.0.2
+version: 1.0.3
 emoji: 🎨
 homepage: https://github.com/MachinesOfDesire/art-director
 metadata:
@@ -19,6 +19,25 @@ metadata:
 Generate on-aesthetic images for any brand telling stories with images — publications, newsletters, essays, reports, brand blogs, longform product marketing, anything where the image has to feel like it belongs to you and has to do work.
 
 **The difference between this skill and a text-to-image tool:** A text-to-image tool takes a description and renders it. This skill takes (a) your brand's persistent aesthetic and (b) the specific brief for this image, and generates something that argues. The image is a parallel statement to the writing, not a summary of it.
+
+---
+
+## What this looks like
+
+One brief, nine shipped aesthetics. Same image brief run through each preset — nine different arguments from the same subject.
+
+| Documentary | Product-photo | Conceptual-illustration |
+|:---:|:---:|:---:|
+| ![Documentary](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-documentary.png) | ![Product photo](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-product-photo.png) | ![Conceptual](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-conceptual.png) |
+| Observed, photographic | Studio photography, seamless | Painterly, metaphor-forward |
+| **Schematic** | **Orbital** | **Editorial-collage** |
+| ![Schematic](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-schematic.png) | ![Orbital](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-orbital.png) | ![Editorial collage](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-editorial-collage.png) |
+| Ink linework, paper, exploded-view | Flat vector, mid-century poster | Torn paper, halftone, analog |
+| **Product-render** | **Synthwave** | **Phosphor** |
+| ![Product render](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-product-render.png) | ![Synthwave](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-synthwave.png) | ![Phosphor](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-phosphor.png) |
+| 3D render, architectural | Chrome, neon, after-midnight | Green CRT, scan lines, low-bit |
+
+A detailed worked example (same brief across three of these aesthetics, with the thinking that produced the brief) lives further down in this file.
 
 ---
 
