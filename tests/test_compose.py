@@ -79,13 +79,23 @@ def test_compose_no_aesthetic_just_brief():
     print("[PASS] compose_prompt handles no-aesthetic case cleanly")
 
 
-def test_available_presets_finds_three():
-    """available_presets should return our three shipped presets."""
+def test_available_presets_finds_all_nine():
+    """available_presets should return all nine shipped presets."""
     result = ad.available_presets()
-    assert "documentary" in result, f"documentary missing from {result}"
-    assert "conceptual-illustration" in result, f"conceptual-illustration missing from {result}"
-    assert "product-render" in result, f"product-render missing from {result}"
-    print(f"[PASS] available_presets finds all three: {result}")
+    expected = [
+        "documentary",
+        "conceptual-illustration",
+        "product-render",
+        "product-photo",
+        "schematic",
+        "editorial-collage",
+        "synthwave",
+        "phosphor",
+        "orbital",
+    ]
+    for name in expected:
+        assert name in result, f"{name} missing from {result}"
+    print(f"[PASS] available_presets finds all nine: {result}")
 
 
 if __name__ == "__main__":
@@ -95,5 +105,5 @@ if __name__ == "__main__":
     test_compose_preserves_existing_specs()
     test_compose_merges_aesthetic_and_brief()
     test_compose_no_aesthetic_just_brief()
-    test_available_presets_finds_three()
+    test_available_presets_finds_all_nine()
     print("\nAll 7 unit tests passed.")

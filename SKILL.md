@@ -1,7 +1,7 @@
 ---
 name: art-director
 description: Generate on-aesthetic images for any brand telling stories with images. Combines a persistent brand aesthetic with per-image editorial thinking to produce visuals that do work — parallel arguments, not decoration. Wraps nano-banana-pro (Gemini) for the underlying image generation.
-version: 1.0.1
+version: 1.0.2
 emoji: 🎨
 homepage: https://github.com/MachinesOfDesire/art-director
 metadata:
@@ -44,7 +44,8 @@ openclaw skill install nano-banana-pro
 Pick a starting aesthetic preset and copy it into your workspace:
 ```
 python3 art_director.py install --preset documentary
-# or: conceptual-illustration, product-render
+# or one of: conceptual-illustration, product-render, product-photo,
+#            schematic, editorial-collage, synthwave, phosphor, orbital
 # or: --preset blank  to start from an empty template
 ```
 
@@ -186,7 +187,7 @@ python3 art_director.py batch --briefs briefs.txt --outdir ./iteration-01/
 
 ## Worked example
 
-A real brief run through all three shipped presets, so you can see the two-layer model working: same image brief, different aesthetics, three different arguments.
+A real brief run through three of the nine shipped presets, so you can see the two-layer model working: same image brief, different aesthetics, three different arguments. (The full nine-aesthetic grid lives in [`README.md`](README.md).)
 
 **Piece:** An essay about silent obsolescence — things that still run but no longer serve their purpose. The piece never names projection; the image carries the metaphor.
 
@@ -205,7 +206,7 @@ housing aperture, not a beam, not a room wash. The machine is on. There is
 nothing to play. Accent: archival-tape amber (#C4873A).
 ```
 
-### The same brief across three presets
+### The same brief across three of the nine presets
 
 **Documentary** — observed, photographic, magazine-feature register:
 

@@ -78,7 +78,7 @@ The skill merges them. Operators own the aesthetic. Agents own the brief. Neithe
 
 ## Presets
 
-Seven starting points ship in `presets/`:
+Nine starting points ship in `presets/`:
 
 | Preset | Feel | Good for |
 |---|---|---|
@@ -89,6 +89,8 @@ Seven starting points ship in `presets/`:
 | `schematic` | Precise ink linework, orthographic / exploded-view, paper texture | Engineering, manuals, technical docs, data-heavy content |
 | `editorial-collage` | Torn-magazine scraps, halftone dots, analog composition | Features, culture mags, longform with editorial bite |
 | `synthwave` | 80s retrofuturist, neon magenta/cyan, chrome, VHS texture | Indie games, music brands, podcasts, retro-tech |
+| `phosphor` | Monochrome CRT, scan lines, low-bit pixel, green/amber/duotone | Indie games, retro-computing, terminal-aesthetic publications |
+| `orbital` | Flat vector poster, cosmic geometry, mid-century palette, print texture | Science writing, culture brands, poster-design sensibility |
 
 Or start blank:
 ```bash
