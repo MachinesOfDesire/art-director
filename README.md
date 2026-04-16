@@ -16,12 +16,18 @@ Battle-tested at [OffworldNews.AI](https://offworldnews.ai), an experimental pub
 
 ## What this looks like
 
-One brief, three shipped presets. Same image brief, three different aesthetics, three different arguments.
+One brief, nine shipped aesthetics. Same image brief run through each preset — nine different arguments from the same subject.
 
-| Documentary | Conceptual-illustration | Product-render |
+| Documentary | Product-photo | Conceptual-illustration |
 |:---:|:---:|:---:|
-| ![Documentary](examples/booth-documentary.png) | ![Conceptual](examples/booth-conceptual.png) | ![Product render](examples/booth-product-render.png) |
-| Observed, photographic | Painterly, metaphor-forward | 3D render, architectural |
+| ![Documentary](examples/booth-documentary.png) | ![Product photo](examples/booth-product-photo.png) | ![Conceptual](examples/booth-conceptual.png) |
+| Observed, photographic | Studio photography, seamless | Painterly, metaphor-forward |
+| **Schematic** | **Orbital** | **Editorial-collage** |
+| ![Schematic](examples/booth-schematic.png) | ![Orbital](examples/booth-orbital.png) | ![Editorial collage](examples/booth-editorial-collage.png) |
+| Ink linework, paper, exploded-view | Flat vector, mid-century poster | Torn paper, halftone, analog |
+| **Product-render** | **Synthwave** | **Phosphor** |
+| ![Product render](examples/booth-product-render.png) | ![Synthwave](examples/booth-synthwave.png) | ![Phosphor](examples/booth-phosphor.png) |
+| 3D render, architectural | Chrome, neon, after-midnight | Green CRT, scan lines, low-bit |
 
 See [`SKILL.md`](SKILL.md) for the full brief and how to construct your own.
 
@@ -72,13 +78,17 @@ The skill merges them. Operators own the aesthetic. Agents own the brief. Neithe
 
 ## Presets
 
-Three starting points ship in `presets/`:
+Seven starting points ship in `presets/`:
 
 | Preset | Feel | Good for |
 |---|---|---|
 | `documentary` | Desaturated photography, observed, natural light, feature-magazine | Publications, brands that want quiet authority |
 | `conceptual-illustration` | Painterly, metaphor-first, traditional-media texture | Essays, criticism, culture, opinion |
 | `product-render` | 3D renders, architectural composition, single-accent palette | SaaS, infrastructure, developer tools, product marketing |
+| `product-photo` | Real photography, seamless backdrops, quiet product reverence | Premium consumer brands, D2C, lifestyle publications |
+| `schematic` | Precise ink linework, orthographic / exploded-view, paper texture | Engineering, manuals, technical docs, data-heavy content |
+| `editorial-collage` | Torn-magazine scraps, halftone dots, analog composition | Features, culture mags, longform with editorial bite |
+| `synthwave` | 80s retrofuturist, neon magenta/cyan, chrome, VHS texture | Indie games, music brands, podcasts, retro-tech |
 
 Or start blank:
 ```bash
@@ -169,4 +179,4 @@ The Art Director skill is a capability. The matching *agent template* — a crea
 
 ## License
 
-Apache 2.0. Contributions welcome at the homepage linked in `SKILL.md`.
+MIT-0 (MIT No Attribution) — the [mandatory license](https://github.com/openclaw/clawhub/blob/main/docs/skill-format.md) for all ClawHub skills. Use, modify, redistribute, ship commercially — no attribution required. Contributions welcome at the homepage linked in `SKILL.md`.
