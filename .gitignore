@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Skill runtime artifacts
+# (aesthetic.md is the operator's own file once they install a preset
+# into their workspace; it doesn't belong in the repo. The blank template
+# `aesthetic.md` at the repo root IS tracked — it's the template itself.
+# Workspaces created by users live outside this repo.)
+/iteration-*/
+/batch/
+*.generated.png
