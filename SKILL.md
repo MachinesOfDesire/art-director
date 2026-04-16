@@ -1,7 +1,7 @@
 ---
 name: art-director
 description: Generate on-aesthetic images for any brand telling stories with images. Combines a persistent brand aesthetic with per-image editorial thinking to produce visuals that do work — parallel arguments, not decoration. Wraps nano-banana-pro (Gemini) for the underlying image generation.
-version: 1.0.0
+version: 1.0.1
 emoji: 🎨
 homepage: https://github.com/MachinesOfDesire/art-director
 metadata:
@@ -209,15 +209,15 @@ nothing to play. Accent: archival-tape amber (#C4873A).
 
 **Documentary** — observed, photographic, magazine-feature register:
 
-![Documentary preset output](examples/booth-documentary.png)
+![Documentary preset output](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-documentary.png)
 
 **Conceptual-illustration** — painterly, metaphor-forward, essay register:
 
-![Conceptual-illustration preset output](examples/booth-conceptual.png)
+![Conceptual-illustration preset output](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-conceptual.png)
 
 **Product-render** — 3D render, architectural, product-marketing register:
 
-![Product-render preset output](examples/booth-product-render.png)
+![Product-render preset output](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-product-render.png)
 
 The brief never changed. The aesthetic did. That's the skill.
 

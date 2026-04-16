@@ -20,13 +20,13 @@ One brief, nine shipped aesthetics. Same image brief run through each preset —
 
 | Documentary | Product-photo | Conceptual-illustration |
 |:---:|:---:|:---:|
-| ![Documentary](examples/booth-documentary.png) | ![Product photo](examples/booth-product-photo.png) | ![Conceptual](examples/booth-conceptual.png) |
+| ![Documentary](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-documentary.png) | ![Product photo](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-product-photo.png) | ![Conceptual](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-conceptual.png) |
 | Observed, photographic | Studio photography, seamless | Painterly, metaphor-forward |
 | **Schematic** | **Orbital** | **Editorial-collage** |
-| ![Schematic](examples/booth-schematic.png) | ![Orbital](examples/booth-orbital.png) | ![Editorial collage](examples/booth-editorial-collage.png) |
+| ![Schematic](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-schematic.png) | ![Orbital](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-orbital.png) | ![Editorial collage](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-editorial-collage.png) |
 | Ink linework, paper, exploded-view | Flat vector, mid-century poster | Torn paper, halftone, analog |
 | **Product-render** | **Synthwave** | **Phosphor** |
-| ![Product render](examples/booth-product-render.png) | ![Synthwave](examples/booth-synthwave.png) | ![Phosphor](examples/booth-phosphor.png) |
+| ![Product render](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-product-render.png) | ![Synthwave](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-synthwave.png) | ![Phosphor](https://raw.githubusercontent.com/MachinesOfDesire/art-director/main/examples/booth-phosphor.png) |
 | 3D render, architectural | Chrome, neon, after-midnight | Green CRT, scan lines, low-bit |
 
 See [`SKILL.md`](SKILL.md) for the full brief and how to construct your own.
